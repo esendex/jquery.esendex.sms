@@ -1,7 +1,7 @@
 jQuery.Esendex.Sms
 ==================
 
-You can easily integrate with Esendex's Echo application using our jQuery plugin. Here's how:
+jQuery.Esendex.Sms is a Javascript solution which enables quick and easy integration with Esendex's Echo application for send SMS text or voice messages. Here's how:
 
 *  Add jQuery to you page (jquery-1.8 or later is supported)
 *  Include the jquery.esendex.sms.js file

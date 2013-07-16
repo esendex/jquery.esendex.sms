@@ -10,8 +10,8 @@ You can easily integrate with Esendex's Echo application using our jQuery plugin
 You will need to sign up for an account at www.esendex.com to send SMS or voice messages.
 
 
-Customize the plugin for your needs
------------------------------------
+Use preset data when loading Echo
+---------------------------------
 
 You can use the following attributes to preset data when the Echo application loads:
 
@@ -23,9 +23,11 @@ You can use the following attributes to preset data when the Echo application lo
 
 &lt;span class="sms" data-esendex-phone-number="07800 000 000" data-esendex-message="Default message" data-esendex-account="EX000000"&gt;Send SMS Message with Echo&lt;/span&gt;
 
+
+Customize the appearance of links
+---------------------------------
 The plugin converts the element it is applied on to a hyperlink pointing to Echo. You can alter the CSS class used to display the link by setting the cssClass option when attaching the plugin e.g.
 
 **$(".sms").esendexSms({ cssClass: 'myHyperlinkStyle' });**
-
 
 A complete example can be seen in the sample file.

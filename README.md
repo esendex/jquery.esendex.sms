@@ -20,7 +20,6 @@ You can use the following attributes to preset data when the Echo application lo
 * **data-esendex-account** - If you have multiple accounts you can control which account you want to send the message from. Your account reference is the number prefixed with EX (e.g EX0000001).
 
 **Example**
-
 &lt;span class="sms" data-esendex-phone-number="07800 000 000" data-esendex-message="Default message" data-esendex-account="EX000000"&gt;Send SMS Message with Echo&lt;/span&gt;
 
 

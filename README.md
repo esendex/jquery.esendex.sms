@@ -26,7 +26,7 @@ You can use the following attributes to preset data when the Echo application lo
 
 Customize the appearance of links
 ---------------------------------
-The plugin converts the element it is applied on to a hyperlink pointing to Echo. You can alter the CSS class used to display the link by setting the cssClass option when attaching the plugin e.g.
+The plugin converts the element it is applied on to a hyperlink. You can alter the CSS class used to display the link by setting the cssClass option when attaching the plugin e.g.
 
 **$(".sms").esendexSms({ cssClass: 'myHyperlinkStyle' });**
 

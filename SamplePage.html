@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <script type="text/javascript" src="Scripts/jquery-2.0.2.min.js"></script>
+        <script type="text/javascript" src="Scripts/jquery.esendex.sms.js"></script>
+        <title>Esendex SMS jQuery Plugin Sample</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>You can easily integrate with Esendex's Echo application using our jQuery plugin. Here's how:</h2>
+            <ul>
+                <li>Add jQuery to you page (jquery-1.8 or later is supported)</li>
+                <li>Include the jquery.esendex.sms.js file</li>
+                <li>Apply the esendexSms function to an element or class</li>
+                <li>Include a phone number, default message or cssClass as part of the markup</li>
+            </ul>
+
+            <p>Any html element (e.g. a &lt;span&gt; element) which contains just a phone number can have the plugin applied directly e.g. 
+                <span class="sms">+44 7800 000 000</span>
+            </p>
+    
+            <p>You can specify a recipient using the 'data-esendex-phone-number' attribute, allowing you to customize the link text displayed to the user e.g. 
+                <span class="sms" data-esendex-phone-number="07800 000 000">Send SMS message</span>
+            </p>
+    
+            <p>You can add a message as part of your HTML markup using the 'data-esendex-message' attribute e.g.
+                <span class="sms" data-esendex-phone-number="07800 000 000" data-esendex-message="Default message">Send Default Message</span>
+            </p>
+            
+            <p>If you have multiple accounts then you can pick which account to send from using the 'data-esendex-account' attribute.
+                <span class="sms" data-esendex-phone-number="07800 000 000" data-esendex-message="Default message" data-esendex-account="EX000000">Send Default Message From Specific Account</span>
+            </p>
+
+            <script type="text/javascript">
+                $(".sms").esendexSms({
+                    // The element the plugin is applied to is converted to a hyperlink.
+                    // as part of the options you can specify a custom css class to decorate the hyperlink.
+                    cssClass: 'customLinkStyle'
+                });
+            </script>
+        </div>
+    </body>
+</html>

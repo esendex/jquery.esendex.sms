@@ -1,0 +1,43 @@
+﻿body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #b2afd6; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #b2afd6 0%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b2afd6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #b2afd6 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #b2afd6 0%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #b2afd6 0%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #b2afd6 0%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2afd6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+li {
+    margin-top: 8px;
+    font-size: 1.4em;
+}
+
+ul {
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.customLinkStyle {
+    color: brown;
+    font-weight: bold;
+}

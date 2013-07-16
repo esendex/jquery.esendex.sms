@@ -17,7 +17,7 @@ You can use the following attributes to preset data when the Echo application lo
 
 * **data-esendex-phone-number** - This is the phone number you want to send a message to.
 * **data-esendex-message** - Allows you to specify a default message to be typed when Echo loads.
-* **data-esendex-account** - If you have multiple accounts you can control which account you want to send the message from. After signing up for an account, use your account reference which will be in the form of EX........
+* **data-esendex-account** - If you have multiple accounts you can control which account you want to send the message from. Your account reference is the number prefixed with EX (e.g EX0000001).
 
 
 The plugin converts the element it is applied on to a hyperlink pointing to Echo. You can alter the CSS class used to display the link by setting the cssClass option when attaching the plugin e.g.
